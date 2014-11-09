@@ -1,45 +1,332 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Coming Soon</title>
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<link href="tools/style.css" rel="stylesheet" type="text/css" />
-<link href="tools/960.css" rel="stylesheet" type="text/css" />
-<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> 
-<script type="text/javascript" src="js/cufon-yui.js"></script>
-<script type="text/javascript" src="js/Adobe_Caslon_Pro_600.font.js"></script>
-<script type="text/javascript">
-	Cufon.replace('h1', {fontFamily: 'Adobe Caslon Pro', hover:true})
-</script>
-</head>
-<body>
-<div class="container_12" id="content">
-	<h1>Lukas Tencer's Website</h1>
-	<h3>The website isn’t quite ready, but you can still...</h3>
-	<div class="main">
-		<div class="mcontent">
-			<div class="boxes">
-				<div class="box mr20">
-					<h2>Contact me</h2>
-					<br/>
-					<p>
-					Email : <a href="#">lukas.tencer@gmail.com</a>
-					</p>
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Lukas Tencer's Website</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.scrollzer.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<link rel="icon" href="favico.png" type="image/png">
+
+		<script type="text/javascript" src="./slimbox/js/slimbox2.js"></script>
+		<link rel="stylesheet" href="./slimbox/css/slimbox2.css" type="text/css" media="screen" />
+
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<div id="header" class="skel-layers-fixed">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title">Lukas Tencer</h1>
+							<p>+ Machine Learning </br>+ Data Science</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
+							
+								Prologue's nav expects links in one of two formats:
+								
+								1. Hash link (scrolls to a different section within the page)
+								
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+								2. Standard link (sends the user to another page/site)
+
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+							
+							-->
+							<ul>
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
+								<li><a href="#publications" id="publications-link" class="skel-layers-ignoreHref"><span class="icon fa-file-text">Publications</span></a></li>
+								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+						
 				</div>
-				<div class="box2">
-					<h2>Follow me</h2>
-					<div class="social">
-					  <a href="http://www.linkedin.com/in/lukastencer" class="link google-plus" target="_parent"><span class="fa fa-linkedin-square"></span></a>
-					  <a href="https://github.com/lukastencer" class="link github" target="_parent"><span class="fa fa-github"></span></a>
-					  <a href="https://www.facebook.com/lukas.tencer/" class="link facebook" target="_parent"><span class="fa fa-facebook-square"></span></a>
-					  <a href="https://twitter.com/lukastencer" class="link twitter" target="_parent"><span class="fa fa-twitter"></span></a>
-					</div>
-				</div>			
+				
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="http://www.linkedin.com/in/lukastencer" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/lukastencer" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="https://twitter.com/lukastencer" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.facebook.com/lukas.tencer" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="mailto:lukas.tencer@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+				
+				</div>
+			
 			</div>
-		</div>
-	</div>
-</div>
-</body>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 class="alt">Hi! I'm <strong>Lukas Tencer</strong>, Machine Learning and<br />
+								Data Science enthusiast. Always curious.</h2>
+								<p>"I have observed that the selection of food is often<br />
+								  influenced by the mood of the person ordering."<br />
+								– Lieutenant Commander Data.</p>
+							</header>
+							
+							<footer>
+								<a href="#portfolio" class="button scrolly">Show Me</a>
+							</footer>
+
+						</div>
+					</section>
+					
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+					
+							<header>
+								<h2>Portfolio</h2>
+							</header>
+							
+							<p>
+							This is short showcase of projects I was working on. These are mostly research projects, 
+							side project and free-time project. Many of the things I was working on in companies need to 
+							stay secret, so you dont find them listed here. You can see some details of those on my 
+							LinkedIn profile.
+							</p>
+						
+							<div class="row">
+								<div class="6u">
+									<article class="item">
+										<a href="images/sig.png" class="image fit" rel="lightbox-projects"><img src="images/sig.png" alt="" /></a>
+										<header>
+											<h3><span class="high1">Signature Recognition from Accelerometer and Gyroscope Data</span></h3>
+											Time-Series data, Recognition, Classification, HMM, RNN
+										</header>
+									</article>
+									<article class="item">
+										<a href="images/Gesture.png" class="image fit" rel="lightbox-projects"><img src="images/Gesture.png" alt="" /></a>
+										<header>
+											<h3><span class="high1">Gesture Recognition Systems</span></h3>
+											Gesture Recognition, Classification, Semi-Supervised Learning, Handwriting Recognition
+										</header>
+									</article>
+									<article class="item">
+										<a href="images/SBIR.png" class="image fit" rel="lightbox-projects"><img src="images/SBIR.png" alt="" /></a>
+										<header>
+											<h3><span class="high1">Sketch-Based Image Retrieval from Documents and Books</span></h3>
+											Content-Based Image Retrieval, SIFT-Like Features, HOG Features, Soft Bag-of-Words, Invert Index
+										</header>
+									</article>
+									<article class="item">
+										<a href="images/Tracking.png" class="image fit" rel="lightbox-projects"><img src="images/Tracking.png" alt="" /></a>
+										<header>
+											<h3><span class="high1">Tracking of color-encoded objects</span></h3>
+											Object Tracking, Computer Vision, OpenCV, Mean-Shift
+										</header>
+									</article>
+									</article>
+									<article class="item">
+										<a href="images/SchoolAll.png" class="image fit" rel="lightbox-projects"><img src="images/SchoolAll.png" alt="" /></a>
+										<header>
+											<h3><span class="high1">Collection of old School Projects</span></h3>
+											3D GUI, Polynomial Interpolation, CAGD, Procedural Modeling, Spline and Patch modeling, 2D Editor, 3D Editor, Encryption, Many Games, 3D Modeling
+										</header>
+									</article>
+								</div>
+								<div class="6u">
+									<article class="item">
+										<a href="images/summit.png" class="image fit" rel="lightbox-projects"><img src="images/summit.png" alt="" /></a>
+										<header>
+											<h3><span class="high1">New Semi-Supervised Training Meta-Classifier</span></h3>
+											Help-Training, Semi-Supervised Training, Active Learning, Classification
+										</header>
+									</article>
+									<article class="item">
+										<a href="images/Universum.png" class="image fit" rel="lightbox-projects"><img src="images/Universum.png" alt="" /></a>
+										<header>
+											<h3><span class="high1">Universum Learning in combination wit Fuzzy Classification</span></h3>
+											Universum learning, Semi-Supervised Training, Classification, Fuzzy Models
+										</header>
+									</article>
+									<article class="item">
+										<a href="images/TITS.png" class="image fit" rel="lightbox-projects"><img src="images/TITS.png" alt="" /></a>
+										<header>
+											<h3><span class="high1">Transductive Similarity applied to Inference in Online Fuzzy Models</span></h3>
+											Online Learning, Transductive Learning, Fuzzy Models, Classification
+										</header>
+									</article>
+									<article class="item">
+										<a href="images/ConvNet.png" class="image fit" rel="lightbox-projects"><img src="images/ConvNet.png" alt="" /></a>
+										<header>
+											<h3><span class="high1">Image Classification with Deep Convolutional Networks</span></h3>
+											Convolutional Networks, Image Classification, SGD with Momentum, GPU, Theano, Big Data
+										</header>
+									</article>
+									<article class="item">
+										<a href="images/NNet.png" class="image fit" rel="lightbox-projects"><img src="images/NNet.png" alt="" /></a>
+										<header>
+											<h3><span class="high1">Deep Learning library in Python</span></h3>
+											Neural Networks, Unsupervised Pre-Training, Backpropagation, BFGS, Hessian-free Optimization, Python
+										</header>
+									</article>
+									<article class="item">
+										<a href="images/WorkAll.png" class="image fit" rel="lightbox-projects"><img src="images/WorkAll.png" alt="" /></a>
+										<header>
+											<h3><span class="high1">Some Work and Freelance Projects <br/>(only those, which I am allowed to show)</span></h3>
+											Java Server Development, SaaS, Web Development, HTML5, Dojo, IBM Xpages, Lotus Quickr, Unity, Network Trafic Analysis
+										</header>
+									</article>
+								</div>
+							</div>
+							<br/>
+							<div class=""><span class="high1">My Tools <span class="icon fa-wrench"></span> and Toys <span class="icon fa-rocket"></span>:</span></div>
+
+							<span class="high1">Abstract Concepts:</span> Machine Learning, Data Science, Computer Vision, Pattern Recognition, Statistics<br/>
+							<span class="high1">Some Models:</span> Semi-Supervised Learning, Neural Networks, SVM, NBC, PCA, LGA, LogReg, LASSO, Regularization, KNN, Fuzzy Models, HMM, SIFT, SURF, BoW, CBIR, MRF, CRF, CART, Random Forests, AdaBoost, Boosting and Bagging, Ensemble Learning, Data Visualization, Desciptive Statistics, Hypothesis Testing, ANOVA, t-Test, p-Value<br/>
+							<span class="high1">Technologies:</span> scikit-learn, OpenCV, Theano, Pandas, Matlab, Hadoop, MongoDB, ggplot<br/>
+							<span class="high1">Languages:</span> Python, R, Matlab, JAVA, C++ (many others learned on need basis)<br/>
+
+						</div>
+					</section>
+
+				<!-- Publications -->
+					<section id="publications" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Publications</h2>
+							</header>
+
+							<p>These are my selected research publications. List does not include publications under review (3).</p>
+							
+							<p class = "publist">
+								<span class="icon fa-pencil">&nbsp;&nbsp;</span><span class="high1">TITS-FM: Transductive incremental Takagi-Sugeno fuzzy models</span>; L Tencer, M Renakova, M Cheriet; Journal of Applied Soft Computing, Elsevier, 2014
+								<br />							
+								<span class="icon fa-pencil">&nbsp;&nbsp;</span><span class="high1">ARTIST: ART-2A Driven Generation of Fuzzy Rules for Online Handwritten Gesture Recognition</span>; M Renakova, L Tencer, M Cheriet; Document Analysis and Recognition (ICDAR), 2013
+								<br />
+								<span class="icon fa-pencil">&nbsp;&nbsp;</span><span class="high1">Sketch-Based Retrieval of Document Illustrations and Regions of Interest</span>; L Tencer, M Renakova, M Cheriet; Document Analysis and Recognition (ICDAR), 2013
+								<br />
+								<span class="icon fa-pencil">&nbsp;&nbsp;</span><span class="high1">A new framework for online sketch-based image retrieval in web environment</span>; L Tencer, M Reznáková, M Cheriet; Information Science, Signal Processing and their Applications (ISSPA), 2012
+								<br />
+								<span class="icon fa-pencil">&nbsp;&nbsp;</span><span class="high1">Online handwritten gesture recognition based on Takagi-Sugeno fuzzy models</span> ; M Reznáková, L Tencer, M Cheriet; Information Science, Signal Processing and their Applications (ISSPA), 2012
+							</p>
+
+
+						</div>
+					</section>
+
+
+				<!-- About Me -->
+					<section id="about" class="four">
+						<div class="container">
+
+							<header>
+								<h2>About Me</h2>
+							</header>
+
+							<a href="images/pic08x.jpg" class="image featured" rel="lightbox-me"><img src="images/pic08x.jpg" alt="" /></a>
+							
+							<p>I am <span class="high1">always curious</span> about learning new things. These things are mostly related to <span class="high1">Machine Learning, Data Science</span>,
+							Computer Vision and Pattern Recognition. I love to explore data and <span class="high1">search for stories</span> which it can tell. I build ML models
+							for <span class="high1">fun and knowledge</span>. One of the most satisfying things is to see your model get high precission on really challenging dataset.
+							I enjoy research and building real-world systems.
+							When I am not doing an online class or reading a book I like to play <span class="high1">board
+							games</span> and <span class="high1">badminton</span>.</p>
+								<div class="row half">
+									<div class="6u"><span class="icon fa-graduation-cap"></span>&nbsp;&nbsp;<span class="high1">I studied</span> and did research:<br/>
+										<span style="text-decoration:underline">PhD.</span> in Machine Learning QC<br/>
+										<span style="text-decoration:underline">MsC.</span> in Computer Graphics and Vision UK<br/>
+										<span style="text-decoration:underline">Bc.</span> in Computer Science UK<br/>
+									</div>
+									<div class="6u"><span class="icon fa-briefcase"></span>&nbsp;&nbsp;<span class="high1">I worked</span> for quite some time:<br/>
+										<span style="text-decoration:underline">Synchromedia</span> in Machine Learning 4Y<br/>
+										<span style="text-decoration:underline">imo.im</span> in Machine Learning 3M<br/>
+										<span style="text-decoration:underline">IBM</span> in Software Develpment 1Y<br/>
+										<span style="text-decoration:underline">Whitestein</span> in Software Develpment 2Y<br/>
+									</div>
+								</div>
+
+						</div>
+					</section>
+			
+				<!-- Contact -->
+					<section id="contact" class="five">
+						<div class="container">
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+							<p>Please feel free to contact me any time by <a href="mailto:lukas.tencer@gmail.com">email</a>.<br />
+							I am allways looking forward to do one of the following:<br />
+							<ul>
+								<li><span class="icon fa-thumbs-o-up"></span>&nbsp;&nbsp;&nbsp;Explore new opportunities in Machine Learning and Data Science</li>
+								<li><span class="icon fa-thumbs-o-up"></span>&nbsp;&nbsp;&nbsp;Participate in meetups and gathering on ML, DS or CV topics.</li>
+								<li><span class="icon fa-thumbs-o-up"></span>&nbsp;&nbsp;&nbsp;Give talks about my work and spread the word</li>
+								<li><span class="icon fa-thumbs-o-up"></span>&nbsp;&nbsp;&nbsp;Take part in and organize hackatons, seminars or workshops</li>
+								<li><span class="icon fa-thumbs-o-up"></span>&nbsp;&nbsp;&nbsp;Join interesting Open Source projects and work on novel Ideas</li>
+							</ul>
+							</p>
+							
+							<form method="post" action="mailto:lukas.tencer@gmail.com?Subject=Awesome%20subject">
+								<!--<div class="row half">
+									<div class="6u"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="6u"><input type="text" name="email" placeholder="Email" /></div>
+								</div>
+								<div class="row half">
+									<div class="12u">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+								</div>-->
+								<div class="row">
+									<div class="12u">
+										<input type="submit" value="Awesome!" />
+									</div>
+								</div>
+							</form>
+
+						</div>
+					</section>
+			
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+				
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>Lukas Tencer. 2015.</li></li>
+					</ul>
+				
+			</div>
+
+	</body>
 </html>
