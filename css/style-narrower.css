@@ -54,6 +54,27 @@
 						font-size: 1.25em;
 					}
 					
+
+		#logo .image
+		{
+			position: relative;
+			margin-top: -0.8em;
+		}
+			.image.avatar48
+			{
+				width: 135px;
+				height: 135px;
+				background: #f00;
+				margin-left: -1.5em;
+				margin-top: -1.75em;
+			}
+			
+				.image.avatar48 img
+				{
+					width: 135px;
+					height: 135px;
+				}
+
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/

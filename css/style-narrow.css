@@ -37,6 +37,21 @@
 					width: 1.75em;
 				}
 
+			.image.avatar48
+			{
+				width: 108px;
+				height: 108px;
+				background: #f00;
+				margin-left: -1.5em;
+				margin-top: -1.75em;
+			}
+			
+				.image.avatar48 img
+				{
+					width: 108px;
+					height: 108px;
+				}
+
 	/* Item */
 	
 		.item
