@@ -1,0 +1,1787 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass moderncv
+\begin_preamble
+%\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}           % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}      % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+\usepackage{setspace}
+\usepackage{multicol}
+\end_preamble
+\use_default_options false
+\begin_modules
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command bibtex
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 0
+\tocdepth -1
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+The moderncv class offers lots of customization possibilities; some are
+ explained in the preamble of this document; for more information look at
+ the documentation of the LaTeX-package 
+\series bold
+moderncv
+\series default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://mirrors.ctan.org/macros/latex/contrib/moderncv/examples/template.tex
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CVStyle
+casual
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+required, possible styles are 'casual' (default), 'classic', 'oldstyle'
+ and 'banking'
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout CVColor
+blue
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+required, possible colors are 'blue' (default), 'orange', 'green', 'red',
+ 'purple', 'grey' and 'black'
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout PDF Page Mode
+UseOutlines
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+optional, controls how the PDF will be shown; use either 'UseNone' (only
+ the document), 'UseThumbs' (show thumbnails), 'UseOutlines' (show bookmarks)
+ or 'FullScreen' (open in fullscreen mode).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout FirstName
+Lukas
+\end_layout
+
+\begin_layout FamilyName
+Tencer
+\end_layout
+
+\begin_layout Title
+Curriculum Vitae
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+optional
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+The following personal entries are optional.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Address
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Notre Dame
+\begin_inset space ~
+\end_inset
+
+1440
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+H3C 1K9
+\begin_inset space ~
+\end_inset
+
+Montreal
+\end_layout
+
+\end_inset
+
+Canada
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+the optional lines are only important for the styles 
+\emph on
+classic
+\emph default
+ and 
+\emph on
+oldstyle
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Phone
+skype: lukas.tencer
+\end_layout
+
+\begin_layout Email
+lukas.tencer@gmail.com
+\end_layout
+
+\begin_layout Homepage
+lukastencer.github.com
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+The Social style can be enabled if 
+\series bold
+moderncv
+\series default
+ version 1.5.0 or newer is installed.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Social
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+twitter
+\end_layout
+
+\end_inset
+
+ptestman
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+currently only 
+\series bold
+twitter
+\series default
+, 
+\series bold
+linkedin
+\series default
+ or 
+\series bold
+github
+\series default
+ is supported as name
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Social
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+linkedin
+\end_layout
+
+\end_inset
+
+ptestman
+\end_layout
+
+\begin_layout Social
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+github
+\end_layout
+
+\end_inset
+
+ptestman
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Social
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+twitter
+\end_layout
+
+\end_inset
+
+lukastencer
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+currently only 
+\series bold
+twitter
+\series default
+, 
+\series bold
+linkedin
+\series default
+ or 
+\series bold
+github
+\series default
+ is supported as name
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Social
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+linkedin
+\end_layout
+
+\end_inset
+
+lukastencer
+\end_layout
+
+\begin_layout Social
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+github
+\end_layout
+
+\end_inset
+
+lukastencer
+\end_layout
+
+\begin_layout Photo
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+90pt
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+0.4pt
+\end_layout
+
+\end_inset
+
+lukas2.jpg
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+The name of the image file.
+ The first argument is the height the photo is resized to, the second one
+ the thickness of the surrounding frame
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+Determine never to be idle.
+ No person will have occasion to complain of the want of time who never
+ loses any.
+ It is wonderful how much may be done if we are always doing.
+ 
+\begin_inset Newline newline
+\end_inset
+
+- Thomas Jefferson -
+\end_layout
+
+\begin_layout MakeCVtitle
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+outputs the title part; optional
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Keep entries with green labels empty!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+My Mission Statement
+\end_layout
+
+\begin_layout Standard
+I have a deep passion for Machine Learning and Data Science and I am eager
+ to expand my knowledge in these areas even further.
+ I have implemented many Machine Learning algorithms and deployed several
+ Machine Learning systems which were used by millions of users.
+ I love to explore the stories hidden in the data and be able to tell the
+ future using my prediction models.
+ Whatever it is using predictive models, descriptive or inferential statistics,
+ I am looking forward to finding solutions for problems in Data Science,
+ Machine Learning, Computer Vision or Pattern Recognition.
+ Every new dataset is for me like a tangled ball of string which waits to
+ be untangled.
+ 
+\end_layout
+
+\begin_layout Section
+Experience
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2011--now
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Researcher in Machine Learning and Computer Vision
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Synchromedia
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Montreal
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+Canada
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout ListItem
+Implementing techniques of machine learning & pattern recognition & computer
+ vision
+\end_layout
+
+\begin_layout ListItem
+Exploring the state of the art to keep up with current research trend 
+\end_layout
+
+\begin_layout ListItem
+Publishing on international conferences and journals (Elsevier, IEEE) 
+\end_layout
+
+\begin_layout ListItem
+Programming in Matlab, Python, Java, JS+HTML5+PHP 
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2013--(3 mo.)
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Machine Learning intern
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+imo.im
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Palo Alto
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+California, USA
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout ListItem
+Development of machine learning systems for image classification and text
+ classification
+\end_layout
+
+\begin_layout ListItem
+Textual and image feature extraction
+\end_layout
+
+\begin_layout ListItem
+Data cleaning and preprocessing
+\end_layout
+
+\begin_layout ListItem
+Deployment of machine learning system to live infrastructure
+\end_layout
+
+\begin_layout ListItem
+Worked with Georges Harik, Google employee no.
+ 7, author of AdWords
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2011--2012
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Software Engineer in Augmented Reality
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+VIS GRAVIS
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bratislava
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+Slovakia
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout ListItem
+Research and development in the area of multi-touch displays in combination
+ with augmented reality
+\end_layout
+
+\begin_layout ListItem
+Analysis of market solutions for augmented reality in urban planning
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2010--2011
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Software Engineer in Web Platforms
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+IBM
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dublin
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+Ireland
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout ListItem
+DOJO based component development on IBM Domino platform
+\end_layout
+
+\begin_layout ListItem
+JAVA development on REST based platform (IBM Connections)
+\end_layout
+
+\begin_layout ListItem
+Development of UI component for the mobile version of Xpages technology
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2006--2008
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Software Quality Engineer in Networking Software
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Whitestein
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bratislava
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+Slovakia
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout ListItem
+Network traffic analysis
+\end_layout
+
+\begin_layout ListItem
+Composition of test cases and their execution, black box / white box testing
+\end_layout
+
+\begin_layout Section
+Education
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2011--2015
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+PhD.
+ of Computer Science
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Université du Québec - Ecole de Technologie supérieure
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Montreal
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+Canada
+\end_layout
+
+\end_inset
+
+Main focus on Machine Learning and Computer Vision.
+ Organizing Machine Learning seminar and Algorithms seminar, actively participat
+ing in Data Science seminar.
+ Thesis on semi-supervised machine learning techniques.
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2009
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+RNDr.
+ of Computer Graphics and Geometry
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Comenius University
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bratislava
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+Slovakia
+\end_layout
+
+\end_inset
+
+This is an extension of master thesis awarded for writing thesis on object
+ tracking and passing exams from subjects in computer graphics and computational
+ geometry.
+ 
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2007--2009
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Master of Computer Graphics and Geometry
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Comenius University
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bratislava
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+Slovakia
+\end_layout
+
+\end_inset
+
+Top 1% of the class.
+ My Studies focused on computation geometry and computer graphics with emphasis
+ on implementation of computer graphics algorithms.
+ Thesis on HID using computer vision techniques and 3D interfaces, results
+ published on an international conference.
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2004--2007
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Bachelor of Computer Science
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Comenius University
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bratislava
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+Slovakia
+\end_layout
+
+\end_inset
+
+Main focus on algorithms and programming.
+ Thesis on User Interfaces in operating systems.
+\end_layout
+
+\begin_layout Section
+PhD.
+ Thesis
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Title
+\end_layout
+
+\end_inset
+
+
+\emph on
+Semi-Supervised Techniques for Classification Tasks
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+add negative or positive space as you like
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Supervisors
+\end_layout
+
+\end_inset
+
+prof.
+ Mohamed Cheriet - Canada Research Chair Tier 1, IEEE SM., 
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Description
+\end_layout
+
+\end_inset
+
+My thesis focused on three different techniques in semi-supervised machine
+ learning.
+ Specifically the Transductive similarity, Universum learning and Summit-trainin
+g (combination of active learning and semi-supervised learning).
+ Currently with 2 accepted 2 submitted journal papers and 4 published conference
+ papers.
+\end_layout
+
+\begin_layout Section
+Languages
+\end_layout
+
+\begin_layout ItemWithComment
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+English
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Full Professional Proficiency
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout ItemWithComment
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Slovak
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Native Proficiency
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout ItemWithComment
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Czech
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Native Proficiency
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout ItemWithComment
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+German
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Working Proficiency
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout ItemWithComment
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+French
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Limited Proficiency
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Skills
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Abstract Concepts
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+I love to learn new concepts and broaden my knowledge in any of the existing
+ topics which I already know.
+ I read papers and books, do online classes, organize and participate in
+ seminars etc.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setlength
+\backslash
+columnsep{-100pt}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setstretch{0.1}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+leftmargin=35mm, itemsep=-1mm
+\end_layout
+
+\end_inset
+
+Machine Learning
+\end_layout
+
+\begin_layout Itemize
+Data Science
+\end_layout
+
+\begin_layout Itemize
+Pattern Recognition
+\end_layout
+
+\begin_layout Itemize
+Computer Vision
+\end_layout
+
+\begin_layout Itemize
+Information Retrieval
+\end_layout
+
+\begin_layout Itemize
+Data Analysis
+\end_layout
+
+\begin_layout Itemize
+Data Visualization
+\end_layout
+
+\begin_layout Itemize
+Image Processing
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Some Models
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+These are some models which I implemented or used.
+ Usually when I need specific models, I just read the paper / book on it
+ and the use or implement it.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setstretch{0.1}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+leftmargin=35mm, itemsep=-1mm
+\end_layout
+
+\end_inset
+
+Semi-Supervised Learning
+\end_layout
+
+\begin_layout Itemize
+Neural Networks
+\end_layout
+
+\begin_layout Itemize
+Fuzzy Models
+\end_layout
+
+\begin_layout Itemize
+Support Vector Machines
+\end_layout
+
+\begin_layout Itemize
+Ensemble Learning
+\end_layout
+
+\begin_layout Itemize
+Generalized Linear Models
+\end_layout
+
+\begin_layout Itemize
+Image Features (SIFT, SURF...)
+\end_layout
+
+\begin_layout Itemize
+Hypothesis Testing
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Languages and Technologies
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Recently I used mostly Python, Matlab, some R and Java.
+ I learn languages on need basis and I don't have a problem to learn a new
+ language / library very quickly.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{multicols}{2}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setstretch{0.1}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+leftmargin=35mm, itemsep=-1mm
+\end_layout
+
+\end_inset
+
+Python
+\end_layout
+
+\begin_layout Itemize
+Matlab
+\end_layout
+
+\begin_layout Itemize
+Java
+\end_layout
+
+\begin_layout Itemize
+C++
+\end_layout
+
+\begin_layout Itemize
+scikit-learn
+\end_layout
+
+\begin_layout Itemize
+OpenCV
+\end_layout
+
+\begin_layout Itemize
+Pandas
+\end_layout
+
+\begin_layout Itemize
+ggplot
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{multicols}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Interests
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Higher Causes
+\end_layout
+
+\end_inset
+
+I love to educate myself and spread my knowledge when I have free time with:
+ Online Courses (MOOC), Seminars and Meetups, Open Source software
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.3cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Free-time activities
+\end_layout
+
+\end_inset
+
+I like to stimulate myself intellectually and physically to keep my mind
+ and body sharp with: Board games, Badminton, Swimming, Skiing, Martial
+ Arts
+\end_layout
+
+\begin_layout Section
+Honors, Awards & Activities
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Honors & Awards
+\end_layout
+
+\end_inset
+
+ETS Graduate Scholarship (2012), Prize of Slovak Cybernetic Society on Slovak
+ Academy of Science (2011), Doctoral student scholarship (2009), Dean's
+ award for doctoral students (2009), Kunii Award (2009), Student scientific
+ conference (2009)
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.3cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Other Activities
+\end_layout
+
+\end_inset
+
+Organizer: Machine Learning Seminar (ETS), Algorithmic Practice Sessions
+ (ETS); Participant: Data Science Montreal (Invited Talk), Big Data Montreal
+ (Regular Attendee)
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+To redefine the heading string (
+\begin_inset Quotes eld
+\end_inset
+
+Publications
+\begin_inset Quotes erd
+\end_inset
+
+), uncomment this:
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+refname}{Publications}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+bibliographyitemlabel}{[
+\backslash
+arabic{enumiv}]}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+optional, numbers the bibliography items
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintAll"
+bibfiles "MyCollection"
+options "unsrt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.3cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1.85cm
+\end_inset
+
+(3 journal papers under review)
+\end_layout
+
+\end_body
+\end_document
