@@ -459,24 +459,19 @@ The name of the image file.
 status open
 
 \begin_layout Plain Layout
-Company Recruitment team
+\begin_inset space ~
+\end_inset
+
+
 \end_layout
 
 \end_inset
 
-Company, Inc.
-\begin_inset Newline newline
-\end_inset
 
-123 somestreet
-\begin_inset Newline newline
-\end_inset
-
-some city
 \end_layout
 
 \begin_layout Date
-January 01, 1984
+December 24, 2014
 \end_layout
 
 \begin_layout Opening
@@ -524,60 +519,57 @@ Keep entries with green labels empty!
 \end_layout
 
 \begin_layout Standard
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
- Duis ullamcorper neque sit amet lectus facilisis sed luctus nisl iaculis.
- Vivamus at neque arcu, sed tempor quam.
- Curabitur pharetra tincidunt tincidunt.
- Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat.
- Duis tristique justo vel massa fermentum accumsan.
- Mauris ante elit, feugiat vestibulum tempor eget, eleifend ac ipsum.
- Donec scelerisque lobortis ipsum eu vestibulum.
- Pellentesque vel massa at felis accumsan rhoncus.
-\end_layout
-
-\begin_layout Standard
-Suspendisse commodo, massa eu congue tincidunt, elit mauris pellentesque
- orci, cursus tempor odio nisl euismod augue.
- Aliquam adipiscing nibh ut odio sodales et pulvinar tortor laoreet.
- Mauris a accumsan ligula.
- Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
- inceptos himenaeos.
- Suspendisse vulputate sem vehicula ipsum varius nec tempus dui dapibus.
- Phasellus et est urna, ut auctor erat.
- Sed tincidunt odio id odio aliquam mattis.
- Donec sapien nulla, feugiat eget adipiscing sit amet, lacinia ut dolor.
- Phasellus tincidunt, leo a fringilla consectetur, felis diam aliquam urna,
- vitae aliquet lectus orci nec velit.
- Vivamus dapibus varius blandit.
-\end_layout
-
-\begin_layout Standard
-Duis sit amet magna ante, at sodales diam.
- Aenean consectetur porta risus et sagittis.
- Ut interdum, enim varius pellentesque tincidunt, magna libero sodales tortor,
- ut fermentum nunc metus a ante.
- Vivamus odio leo, tincidunt eu luctus ut, sollicitudin sit amet metus.
- Nunc sed orci lectus.
- Ut sodales magna sed velit volutpat sit amet pulvinar diam venenatis.
-\end_layout
-
-\begin_layout Standard
-Albert Einstein discovered that 
-\begin_inset Formula $E=mc^{2}$
+\begin_inset space \qquad{}
 \end_inset
 
- in 1905.
+Please let me say that I am really honored to have the opportunity to apply
+ for the internship position.
+ I am currently doing last year of my Ph.D.
+ studies in Computer Science from ETS Montreal with a main focus on Data
+ Analysis and Machine Learning and this opportunity would provide a great
+ option for me to validate my professional skills.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula 
-\[
-e=\lim_{n\to\infty}\left(1+\frac{1}{n}\right)^{n}
-\]
-
+\begin_inset space \qquad{}
 \end_inset
 
+Data in general is my big passion and I believe that a decision made based
+ on data could really benefit any organization.
+ I have an experience with building prediction systems and analysis of large
+ amounts of data.
+ My previous internships and even my research career allowed me to tackle
+ problems related to the state-of-the-art algorithm and analysis.
+ I am eager to learn more in this are and I am doing everything to improve
+ my knowledge.
+ On a daily basis, I read scientific papers, book and I study open source
+ solution to broaden my horizon.
+ At the same time, I have software engineering experience which allows me
+ to create prototypes very fast and approach problems in organized and systemati
+c way.
+\end_layout
 
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+I hope that I can contribute with my current experience to the company and
+ also that I will be able to learn a lot by working on interesting problems.
+ Actually that is one of the most important things to me and that is what
+ I expect from the internship, to be able to tackle new interesting problems,
+ to discover stories hidden in the data and to face constant challenges.
+ I would rather face one problem which I can not solve than ten problems
+ with an obvious solution, since I find it very effective to learn by putting
+ all the effort into solution of hard problems.
+ I like to look for innovative solutions and think outside of the box.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \qquad{}
+\end_inset
+
+Thank you again for the opportunity and I hope that in case everything goes
+ well, the internship can result into mutually beneficial relationship.
 \end_layout
 
 \begin_layout MakeLetterClosing
