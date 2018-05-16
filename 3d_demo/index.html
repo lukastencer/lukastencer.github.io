@@ -327,6 +327,13 @@
 			document.getElementById('gamma').innerHTML = Math.round(event.gamma);
 			document.getElementById('alpha').innerHTML = Math.round(event.alpha);
 			document.getElementById('is-absolute').innerHTML = event.absolute ? "true" : "false";
+
+			//todo - set coordinates here
+
+			mouseX = ( event.gamma ) * 0.01;
+			mouseY = ( event.beta ) * 0.01;
+
+
 		});
 	}
 
