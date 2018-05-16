@@ -330,9 +330,24 @@
 
 			//todo - set coordinates here
 
-			mouseX = ( event.gamma ) * 100;
-			mouseY = ( event.beta ) * 100;
+			// mouseX = ( event.gamma ) * 100;
+			// mouseY = ( event.beta ) * 100;
 
+			var gx  = 0;
+			var gy = 0;
+
+			if(window.innerHeight > window.innerWidth){
+				alert("Please use Landscape!");
+				gx = event.gamma;
+				gy = event.beta
+			}else {
+				gx = event.beta;
+				gx = event.gamma;
+			}
+
+
+			mouseX = gx * 7;
+			mouseY = gy * 7;
 
 		});
 	}
