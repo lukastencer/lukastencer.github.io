@@ -288,7 +288,7 @@
 
 	document.body.appendChild( renderer3.domElement );
 
-	var crateTexture = new THREE.TextureLoader().load("kiss1_b1.png" );
+	var crateTexture = new THREE.TextureLoader().load("kiss2_b1.png" );
 	// var mapC = THREE.TextureLoader().load( "crate.png" );
 	console.log("texture");
 	console.log(crateTexture);
@@ -304,7 +304,7 @@
 	crateTexture.magFilter = THREE.NearestFilter;
 	crateTexture.minFilter = THREE.NearestFilter;
 
-	var crateTexture = new THREE.TextureLoader().load( "kiss1_f.png");
+	var crateTexture = new THREE.TextureLoader().load( "kiss2_f.png");
 	var crateMaterial = new THREE.SpriteMaterial( { map: crateTexture } );
 	var sprite2 = new THREE.Sprite( crateMaterial );
 	// sprite2.position.set( -100, 50, 0 );
