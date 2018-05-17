@@ -153,8 +153,14 @@
 	// sprite2.position.set( -100, 50, 0 );
 	sprite2.scale.set( 7, 7, 1.0 ); // imageWidth, imageHeight
 	scene.add( sprite2 );
-	sprite2.position.set(0, 0, -0.5);
 
+	sprite2.position.set(0, 0, -0.5);
+		crateTexture.anisotropy = 0;
+
+	crateTexture.magFilter = THREE.NearestFilter;
+	crateTexture.minFilter = THREE.NearestFilter;
+	
+	
 	var crateTexture = new THREE.TextureLoader().load( "id1_f2.png");
 	var crateMaterial = new THREE.SpriteMaterial( { map: crateTexture } );
 	var sprite2 = new THREE.Sprite( crateMaterial );
@@ -162,6 +168,10 @@
 	sprite2.scale.set( 6.5, 6.5, 1.0 ); // imageWidth, imageHeight
 	scene.add( sprite2 );
 	sprite2.position.set(0, 0, 0);
+	crateTexture.anisotropy = 0;
+	crateTexture.magFilter = THREE.NearestFilter;
+	crateTexture.minFilter = THREE.NearestFilter;
+	
 
 	var crateTexture = new THREE.TextureLoader().load( "id1_f1.png" );
 	var crateMaterial = new THREE.SpriteMaterial( { map: crateTexture } );
@@ -170,6 +180,11 @@
 	sprite2.scale.set( 6, 6, 1.0 ); // imageWidth, imageHeight
 	scene.add( sprite2 );
 	sprite2.position.set(0, 0, 0);
+	crateTexture.anisotropy = 0;
+	crateTexture.magFilter = THREE.NearestFilter;
+	crateTexture.minFilter = THREE.NearestFilter;
+
+
 
 	camera.position.z = 3; // move camera back so we can see the cube
 
@@ -218,7 +233,12 @@
 	// sprite2.position.set( -100, 50, 0 );
 	sprite2.scale.set( 6, 6, 1.0 ); // imageWidth, imageHeight
 	scene2.add( sprite2 );
+
 	sprite2.position.set(0, 0, -0.5);
+		crateTexture.anisotropy = 0;
+
+	crateTexture.magFilter = THREE.NearestFilter;
+	crateTexture.minFilter = THREE.NearestFilter;
 
 	var crateTexture = new THREE.TextureLoader().load( "beatles_f.png");
 	var crateMaterial = new THREE.SpriteMaterial( { map: crateTexture } );
@@ -227,6 +247,9 @@
 	sprite2.scale.set( 5, 5, 1.0 ); // imageWidth, imageHeight
 	scene2.add( sprite2 );
 	sprite2.position.set(0, 0, 0);
+	crateTexture.anisotropy = 0;
+	crateTexture.magFilter = THREE.NearestFilter;
+	crateTexture.minFilter = THREE.NearestFilter;
 
 	camera2.position.z = 3; // move camera back so we can see the cube
 
@@ -274,7 +297,12 @@
 	// sprite2.position.set( -100, 50, 0 );
 	sprite2.scale.set( 6, 6, 1.0 ); // imageWidth, imageHeight
 	scene3.add( sprite2 );
+
 	sprite2.position.set(0, 0, -0.5);
+		crateTexture.anisotropy = 0;
+
+	crateTexture.magFilter = THREE.NearestFilter;
+	crateTexture.minFilter = THREE.NearestFilter;
 
 	var crateTexture = new THREE.TextureLoader().load( "kiss1_f.png");
 	var crateMaterial = new THREE.SpriteMaterial( { map: crateTexture } );
@@ -283,6 +311,9 @@
 	sprite2.scale.set( 5, 5, 1.0 ); // imageWidth, imageHeight
 	scene3.add( sprite2 );
 	sprite2.position.set(0, 0, 0);
+	crateTexture.anisotropy = 0;
+	crateTexture.magFilter = THREE.NearestFilter;
+	crateTexture.minFilter = THREE.NearestFilter;
 
 	camera3.position.z = 3; // move camera back so we can see the cube
 
@@ -330,7 +361,12 @@
 	// sprite2.position.set( -100, 50, 0 );
 	sprite2.scale.set( 6, 6, 1.0 ); // imageWidth, imageHeight
 	scene4.add( sprite2 );
+
 	sprite2.position.set(0, 0, -0.5);
+		crateTexture.anisotropy = 0;
+
+	crateTexture.magFilter = THREE.NearestFilter;
+	crateTexture.minFilter = THREE.NearestFilter;
 
 	var crateTexture = new THREE.TextureLoader().load( "od_f.png");
 	var crateMaterial = new THREE.SpriteMaterial( { map: crateTexture } );
@@ -339,6 +375,9 @@
 	sprite2.scale.set( 5, 5, 1.0 ); // imageWidth, imageHeight
 	scene4.add( sprite2 );
 	sprite2.position.set(0, 0, 0);
+	crateTexture.anisotropy = 0;
+	crateTexture.magFilter = THREE.NearestFilter;
+	crateTexture.minFilter = THREE.NearestFilter;
 
 	camera4.position.z = 3; // move camera back so we can see the cube
 
@@ -386,7 +425,12 @@
 	// sprite2.position.set( -100, 50, 0 );
 	sprite2.scale.set( 6, 6, 1.0 ); // imageWidth, imageHeight
 	scene5.add( sprite2 );
+
 	sprite2.position.set(0, 0, -0.5);
+		crateTexture.anisotropy = 0;
+
+	crateTexture.magFilter = THREE.NearestFilter;
+	crateTexture.minFilter = THREE.NearestFilter;
 
 	var crateTexture = new THREE.TextureLoader().load( "ts_f.png");
 	var crateMaterial = new THREE.SpriteMaterial( { map: crateTexture } );
@@ -395,6 +439,9 @@
 	sprite2.scale.set( 5, 5, 1.0 ); // imageWidth, imageHeight
 	scene5.add( sprite2 );
 	sprite2.position.set(0, 0, 0);
+	crateTexture.anisotropy = 0;
+	crateTexture.magFilter = THREE.NearestFilter;
+	crateTexture.minFilter = THREE.NearestFilter;
 
 
 	camera5.position.z = 3; // move camera back so we can see the cube
@@ -444,7 +491,12 @@
 	// sprite2.position.set( -100, 50, 0 );
 	sprite2.scale.set( 6, 6, 1.0 ); // imageWidth, imageHeight
 	scene6.add( sprite2 );
+
 	sprite2.position.set(0, 0, -0.5);
+		crateTexture.anisotropy = 0;
+
+	crateTexture.magFilter = THREE.NearestFilter;
+	crateTexture.minFilter = THREE.NearestFilter;
 
 	var crateTexture = new THREE.TextureLoader().load( "drake_f.png");
 	var crateMaterial = new THREE.SpriteMaterial( { map: crateTexture } );
@@ -453,6 +505,9 @@
 	sprite2.scale.set( 5, 5, 1.0 ); // imageWidth, imageHeight
 	scene6.add( sprite2 );
 	sprite2.position.set(0, 0, 0);
+	crateTexture.anisotropy = 0;
+	crateTexture.magFilter = THREE.NearestFilter;
+	crateTexture.minFilter = THREE.NearestFilter;
 
 
 	camera6.position.z = 3; // move camera back so we can see the cube
@@ -503,7 +558,12 @@
 	// sprite2.position.set( -100, 50, 0 );
 	sprite2.scale.set( 6, 6, 1.0 ); // imageWidth, imageHeight
 	scene7.add( sprite2 );
+
 	sprite2.position.set(0, 0, -0.5);
+		crateTexture.anisotropy = 0;
+
+	crateTexture.magFilter = THREE.NearestFilter;
+	crateTexture.minFilter = THREE.NearestFilter;
 
 	var crateTexture = new THREE.TextureLoader().load( "nirvana_f.png");
 	var crateMaterial = new THREE.SpriteMaterial( { map: crateTexture } );
@@ -512,6 +572,9 @@
 	sprite2.scale.set( 5, 5, 1.0 ); // imageWidth, imageHeight
 	scene7.add( sprite2 );
 	sprite2.position.set(0, 0, 0);
+	crateTexture.anisotropy = 0;
+	crateTexture.magFilter = THREE.NearestFilter;
+	crateTexture.minFilter = THREE.NearestFilter;
 
 	camera7.position.z = 3; // move camera back so we can see the cube
 
@@ -528,6 +591,72 @@
 	};
 
 	render7();
+
+</script>
+
+
+
+<script>
+
+	var scene9 = new THREE.Scene();
+	var camera9 = new THREE.PerspectiveCamera(
+			75,                                      // Field of View
+			1,  // aspect ratio
+			0.1,                                     // near clipping plane
+			1000                                     // far clipping plane
+	);
+	var renderer9 = new THREE.WebGLRenderer({
+		alpha: true,     // transparent background
+		antialias: true  // smooth edges
+	});
+
+
+	renderer9.setSize(500, 500);
+
+	document.body.appendChild( renderer9.domElement );
+
+	var crateTexture = new THREE.TextureLoader().load("cp_b1.png" );
+	// var mapC = THREE.TextureLoader().load( "crate.png" );
+	console.log("texture");
+	console.log(crateTexture);
+	var crateMaterial = new THREE.SpriteMaterial( { map: crateTexture } );
+	var sprite2 = new THREE.Sprite( crateMaterial );
+	// sprite2.position.set( -100, 50, 0 );
+	sprite2.scale.set( 6, 6, 1.0 ); // imageWidth, imageHeight
+	scene9.add( sprite2 );
+
+	sprite2.position.set(0, 0, -0.5);
+	crateTexture.anisotropy = 0;
+
+	crateTexture.magFilter = THREE.NearestFilter;
+	crateTexture.minFilter = THREE.NearestFilter;
+
+	var crateTexture = new THREE.TextureLoader().load( "cp_f.png");
+	var crateMaterial = new THREE.SpriteMaterial( { map: crateTexture } );
+	var sprite2 = new THREE.Sprite( crateMaterial );
+	// sprite2.position.set( -100, 50, 0 );
+	sprite2.scale.set( 5, 5, 1.0 ); // imageWidth, imageHeight
+	scene9.add( sprite2 );
+	sprite2.position.set(0, 0, 0);
+	crateTexture.anisotropy = 0;
+	crateTexture.magFilter = THREE.NearestFilter;
+	crateTexture.minFilter = THREE.NearestFilter;
+
+	camera9.position.z = 3; // move camera back so we can see the cube
+
+	var render9 = function () {
+		requestAnimationFrame(render9);
+
+		camera9.position.x += ( (mouseX / 100) - camera9.position.x ) * .05;
+		camera9.position.y += ( - (mouseY / 100) - camera9.position.y ) * .05;
+
+		camera9.lookAt( scene9.position );
+
+		renderer9.render( scene9, camera9 );
+
+	};
+
+	render9();
 
 </script>
 
