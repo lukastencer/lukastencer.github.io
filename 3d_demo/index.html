@@ -134,20 +134,17 @@
 			0.1,                                     // near clipping plane
 			1000                                     // far clipping plane
 	);
-	var renderer = new THREE.WebGLRenderer({
+	var renderer1 = new THREE.WebGLRenderer({
 		alpha: true,     // transparent background
 		antialias: true  // smooth edges
 	});
 
-	// renderer.setSize(window.innerWidth, window.innerHeight);
 
-	// var container = $("body");
+	renderer1.setSize(500, 500);
 
-	renderer.setSize(500, 500);
+	document.body.appendChild( renderer1.domElement );
 
-	document.body.appendChild( renderer.domElement );
-
-	var crateTexture = new THREE.TextureLoader().load("img1-1.png" );
+	var crateTexture = new THREE.TextureLoader().load("id_b1.png" );
 	// var mapC = THREE.TextureLoader().load( "crate.png" );
 	console.log("texture");
 	console.log(crateTexture);
@@ -158,7 +155,7 @@
 	scene.add( sprite2 );
 	sprite2.position.set(0, 0, -0.5);
 
-	var crateTexture = new THREE.TextureLoader().load( "img2.png");
+	var crateTexture = new THREE.TextureLoader().load( "id1_f2.png");
 	var crateMaterial = new THREE.SpriteMaterial( { map: crateTexture } );
 	var sprite2 = new THREE.Sprite( crateMaterial );
 	// sprite2.position.set( -100, 50, 0 );
@@ -166,7 +163,7 @@
 	scene.add( sprite2 );
 	sprite2.position.set(0, 0, 0);
 
-	var crateTexture = new THREE.TextureLoader().load( "img3.png" );
+	var crateTexture = new THREE.TextureLoader().load( "id1_f1.png" );
 	var crateMaterial = new THREE.SpriteMaterial( { map: crateTexture } );
 	var sprite2 = new THREE.Sprite( crateMaterial );
 	// sprite2.position.set( -100, 50, 0 );
@@ -184,18 +181,358 @@
 
 		camera.lookAt( scene.position );
 
-		renderer.render( scene, camera );
+		renderer1.render( scene, camera );
 
-		// renderer.render(scene, camera);
-
-		// rotate cube a little each frame
-		// cube.rotation.x += 0.05;
-		// cube.rotation.y += 0.05;
 	};
 
 	render();
 
 </script>
+
+
+<script>
+
+	var scene2 = new THREE.Scene();
+	var camera2 = new THREE.PerspectiveCamera(
+			75,                                      // Field of View
+			1,  // aspect ratio
+			0.1,                                     // near clipping plane
+			1000                                     // far clipping plane
+	);
+	var renderer2 = new THREE.WebGLRenderer({
+		alpha: true,     // transparent background
+		antialias: true  // smooth edges
+	});
+
+
+	renderer2.setSize(500, 500);
+
+	document.body.appendChild( renderer2.domElement );
+
+	var crateTexture = new THREE.TextureLoader().load("beatles_b1.png" );
+	// var mapC = THREE.TextureLoader().load( "crate.png" );
+	console.log("texture");
+	console.log(crateTexture);
+	var crateMaterial = new THREE.SpriteMaterial( { map: crateTexture } );
+	var sprite2 = new THREE.Sprite( crateMaterial );
+	// sprite2.position.set( -100, 50, 0 );
+	sprite2.scale.set( 7, 7, 1.0 ); // imageWidth, imageHeight
+	scene2.add( sprite2 );
+	sprite2.position.set(0, 0, -0.5);
+
+	var crateTexture = new THREE.TextureLoader().load( "beatles_f.png");
+	var crateMaterial = new THREE.SpriteMaterial( { map: crateTexture } );
+	var sprite2 = new THREE.Sprite( crateMaterial );
+	// sprite2.position.set( -100, 50, 0 );
+	sprite2.scale.set( 5, 5, 1.0 ); // imageWidth, imageHeight
+	scene2.add( sprite2 );
+	sprite2.position.set(0, 0, 0);
+
+	camera2.position.z = 3; // move camera back so we can see the cube
+
+	var render2 = function () {
+		requestAnimationFrame(render2);
+
+		camera2.position.x += ( (mouseX / 100) - camera2.position.x ) * .05;
+		camera2.position.y += ( - (mouseY / 100) - camera2.position.y ) * .05;
+
+		camera2.lookAt( scene2.position );
+
+		renderer2.render( scene2, camera2 );
+
+	};
+
+	render2();
+
+</script>
+
+<script>
+
+	var scene3 = new THREE.Scene();
+	var camera3 = new THREE.PerspectiveCamera(
+			75,                                      // Field of View
+			1,  // aspect ratio
+			0.1,                                     // near clipping plane
+			1000                                     // far clipping plane
+	);
+	var renderer3 = new THREE.WebGLRenderer({
+		alpha: true,     // transparent background
+		antialias: true  // smooth edges
+	});
+
+
+	renderer3.setSize(500, 500);
+
+	document.body.appendChild( renderer3.domElement );
+
+	var crateTexture = new THREE.TextureLoader().load("kiss1_b1.png" );
+	// var mapC = THREE.TextureLoader().load( "crate.png" );
+	console.log("texture");
+	console.log(crateTexture);
+	var crateMaterial = new THREE.SpriteMaterial( { map: crateTexture } );
+	var sprite2 = new THREE.Sprite( crateMaterial );
+	// sprite2.position.set( -100, 50, 0 );
+	sprite2.scale.set( 6, 6, 1.0 ); // imageWidth, imageHeight
+	scene3.add( sprite2 );
+	sprite2.position.set(0, 0, -0.5);
+
+	var crateTexture = new THREE.TextureLoader().load( "kiss1_f.png");
+	var crateMaterial = new THREE.SpriteMaterial( { map: crateTexture } );
+	var sprite2 = new THREE.Sprite( crateMaterial );
+	// sprite2.position.set( -100, 50, 0 );
+	sprite2.scale.set( 5, 5, 1.0 ); // imageWidth, imageHeight
+	scene3.add( sprite2 );
+	sprite2.position.set(0, 0, 0);
+
+	camera3.position.z = 3; // move camera back so we can see the cube
+
+	var render3 = function () {
+		requestAnimationFrame(render3);
+
+		camera3.position.x += ( (mouseX / 100) - camera3.position.x ) * .05;
+		camera3.position.y += ( - (mouseY / 100) - camera3.position.y ) * .05;
+
+		camera3.lookAt( scene3.position );
+
+		renderer3.render( scene3, camera3 );
+
+	};
+
+	render3();
+
+</script>
+
+<script>
+
+	var scene4 = new THREE.Scene();
+	var camera4 = new THREE.PerspectiveCamera(
+			75,                                      // Field of View
+			1,  // aspect ratio
+			0.1,                                     // near clipping plane
+			1000                                     // far clipping plane
+	);
+	var renderer4 = new THREE.WebGLRenderer({
+		alpha: true,     // transparent background
+		antialias: true  // smooth edges
+	});
+
+
+	renderer4.setSize(500, 500);
+
+	document.body.appendChild( renderer4.domElement );
+
+	var crateTexture = new THREE.TextureLoader().load("od_b1.png" );
+	// var mapC = THREE.TextureLoader().load( "crate.png" );
+	console.log("texture");
+	console.log(crateTexture);
+	var crateMaterial = new THREE.SpriteMaterial( { map: crateTexture } );
+	var sprite2 = new THREE.Sprite( crateMaterial );
+	// sprite2.position.set( -100, 50, 0 );
+	sprite2.scale.set( 6, 6, 1.0 ); // imageWidth, imageHeight
+	scene4.add( sprite2 );
+	sprite2.position.set(0, 0, -0.5);
+
+	var crateTexture = new THREE.TextureLoader().load( "od_f.png");
+	var crateMaterial = new THREE.SpriteMaterial( { map: crateTexture } );
+	var sprite2 = new THREE.Sprite( crateMaterial );
+	// sprite2.position.set( -100, 50, 0 );
+	sprite2.scale.set( 5, 5, 1.0 ); // imageWidth, imageHeight
+	scene4.add( sprite2 );
+	sprite2.position.set(0, 0, 0);
+
+	camera4.position.z = 3; // move camera back so we can see the cube
+
+	var render4 = function () {
+		requestAnimationFrame(render4);
+
+		camera4.position.x += ( (mouseX / 100) - camera4.position.x ) * .05;
+		camera4.position.y += ( - (mouseY / 100) - camera4.position.y ) * .05;
+
+		camera4.lookAt( scene4.position );
+
+		renderer4.render( scene4, camera4 );
+
+	};
+
+	render4();
+
+</script>
+
+<script>
+
+	var scene5 = new THREE.Scene();
+	var camera5 = new THREE.PerspectiveCamera(
+			75,                                      // Field of View
+			1,  // aspect ratio
+			0.1,                                     // near clipping plane
+			1000                                     // far clipping plane
+	);
+	var renderer5 = new THREE.WebGLRenderer({
+		alpha: true,     // transparent background
+		antialias: true  // smooth edges
+	});
+
+
+	renderer5.setSize(500, 500);
+
+	document.body.appendChild( renderer5.domElement );
+
+	var crateTexture = new THREE.TextureLoader().load("ts_b1.png" );
+	// var mapC = THREE.TextureLoader().load( "crate.png" );
+	console.log("texture");
+	console.log(crateTexture);
+	var crateMaterial = new THREE.SpriteMaterial( { map: crateTexture } );
+	var sprite2 = new THREE.Sprite( crateMaterial );
+	// sprite2.position.set( -100, 50, 0 );
+	sprite2.scale.set( 6, 6, 1.0 ); // imageWidth, imageHeight
+	scene5.add( sprite2 );
+	sprite2.position.set(0, 0, -0.5);
+
+	var crateTexture = new THREE.TextureLoader().load( "ts_f.png");
+	var crateMaterial = new THREE.SpriteMaterial( { map: crateTexture } );
+	var sprite2 = new THREE.Sprite( crateMaterial );
+	// sprite2.position.set( -100, 50, 0 );
+	sprite2.scale.set( 5, 5, 1.0 ); // imageWidth, imageHeight
+	scene5.add( sprite2 );
+	sprite2.position.set(0, 0, 0);
+
+
+	camera5.position.z = 3; // move camera back so we can see the cube
+
+	var render5 = function () {
+		requestAnimationFrame(render5);
+
+		camera5.position.x += ( (mouseX / 100) - camera5.position.x ) * .05;
+		camera5.position.y += ( - (mouseY / 100) - camera5.position.y ) * .05;
+
+		camera5.lookAt( scene5.position );
+
+		renderer5.render( scene5, camera5 );
+
+	};
+
+	render5();
+
+</script>
+
+
+<script>
+
+	var scene6 = new THREE.Scene();
+	var camera6 = new THREE.PerspectiveCamera(
+			75,                                      // Field of View
+			1,  // aspect ratio
+			0.1,                                     // near clipping plane
+			1000                                     // far clipping plane
+	);
+	var renderer6 = new THREE.WebGLRenderer({
+		alpha: true,     // transparent background
+		antialias: true  // smooth edges
+	});
+
+
+	renderer6.setSize(500, 500);
+
+	document.body.appendChild( renderer6.domElement );
+
+	var crateTexture = new THREE.TextureLoader().load("drake_b1.png" );
+	// var mapC = THREE.TextureLoader().load( "crate.png" );
+	console.log("texture");
+	console.log(crateTexture);
+	var crateMaterial = new THREE.SpriteMaterial( { map: crateTexture } );
+	var sprite2 = new THREE.Sprite( crateMaterial );
+	// sprite2.position.set( -100, 50, 0 );
+	sprite2.scale.set( 6, 6, 1.0 ); // imageWidth, imageHeight
+	scene6.add( sprite2 );
+	sprite2.position.set(0, 0, -0.5);
+
+	var crateTexture = new THREE.TextureLoader().load( "drake_f.png");
+	var crateMaterial = new THREE.SpriteMaterial( { map: crateTexture } );
+	var sprite2 = new THREE.Sprite( crateMaterial );
+	// sprite2.position.set( -100, 50, 0 );
+	sprite2.scale.set( 5, 5, 1.0 ); // imageWidth, imageHeight
+	scene6.add( sprite2 );
+	sprite2.position.set(0, 0, 0);
+
+
+	camera6.position.z = 3; // move camera back so we can see the cube
+
+	var render6 = function () {
+		requestAnimationFrame(render6);
+
+		camera6.position.x += ( (mouseX / 100) - camera6.position.x ) * .05;
+		camera6.position.y += ( - (mouseY / 100) - camera6.position.y ) * .05;
+
+		camera6.lookAt( scene6.position );
+
+		renderer6.render( scene6, camera6 );
+
+	};
+
+	render6();
+
+</script>
+
+
+
+<script>
+
+	var scene7 = new THREE.Scene();
+	var camera7 = new THREE.PerspectiveCamera(
+			75,                                      // Field of View
+			1,  // aspect ratio
+			0.1,                                     // near clipping plane
+			1000                                     // far clipping plane
+	);
+	var renderer7 = new THREE.WebGLRenderer({
+		alpha: true,     // transparent background
+		antialias: true  // smooth edges
+	});
+
+
+	renderer7.setSize(500, 500);
+
+	document.body.appendChild( renderer7.domElement );
+
+	var crateTexture = new THREE.TextureLoader().load("nirvana_b1.png" );
+	// var mapC = THREE.TextureLoader().load( "crate.png" );
+	console.log("texture");
+	console.log(crateTexture);
+	var crateMaterial = new THREE.SpriteMaterial( { map: crateTexture } );
+	var sprite2 = new THREE.Sprite( crateMaterial );
+	// sprite2.position.set( -100, 50, 0 );
+	sprite2.scale.set( 6, 6, 1.0 ); // imageWidth, imageHeight
+	scene7.add( sprite2 );
+	sprite2.position.set(0, 0, -0.5);
+
+	var crateTexture = new THREE.TextureLoader().load( "nirvana_f.png");
+	var crateMaterial = new THREE.SpriteMaterial( { map: crateTexture } );
+	var sprite2 = new THREE.Sprite( crateMaterial );
+	// sprite2.position.set( -100, 50, 0 );
+	sprite2.scale.set( 5, 5, 1.0 ); // imageWidth, imageHeight
+	scene7.add( sprite2 );
+	sprite2.position.set(0, 0, 0);
+
+	camera7.position.z = 3; // move camera back so we can see the cube
+
+	var render7 = function () {
+		requestAnimationFrame(render7);
+
+		camera7.position.x += ( (mouseX / 100) - camera7.position.x ) * .05;
+		camera7.position.y += ( - (mouseY / 100) - camera7.position.y ) * .05;
+
+		camera7.lookAt( scene7.position );
+
+		renderer7.render( scene7, camera7 );
+
+	};
+
+	render7();
+
+</script>
+
+
+
 </body>
 
 <!--<h1>Device Orientation API</h1>-->
@@ -292,38 +629,6 @@
 		});
 	}
 
-	// if (!window.DeviceMotionEvent) {
-	// 	document.getElementById('dm-unsupported').classList.remove('hidden');
-	// } else {
-	// 	document.getElementById('dm-info').classList.remove('hidden');
-	//
-	// 	window.addEventListener('devicemotion', function(event) {
-	// 		document.getElementById('acceleration-x').innerHTML = Math.round(event.acceleration.x);
-	// 		document.getElementById('acceleration-y').innerHTML = Math.round(event.acceleration.y);
-	// 		document.getElementById('acceleration-z').innerHTML = Math.round(event.acceleration.z);
-	//
-	// 		document.getElementById('acceleration-including-gravity-x').innerHTML =
-	// 				Math.round(event.accelerationIncludingGravity.x);
-	// 		document.getElementById('acceleration-including-gravity-y').innerHTML =
-	// 				Math.round(event.accelerationIncludingGravity.y);
-	// 		document.getElementById('acceleration-including-gravity-z').innerHTML =
-	// 				Math.round(event.accelerationIncludingGravity.z);
-	//
-	// 		document.getElementById('rotation-rate-beta').innerHTML = Math.round(event.rotationRate.beta);
-	// 		document.getElementById('rotation-rate-gamma').innerHTML = Math.round(event.rotationRate.gamma);
-	// 		document.getElementById('rotation-rate-alpha').innerHTML = Math.round(event.rotationRate.alpha);
-	//
-	// 		document.getElementById('interval').innerHTML = event.interval;
-	// 	});
-	// }
-
-	// if (!('oncompassneedscalibration' in window)) {
-	// 	document.getElementById('cnc-unsupported').classList.remove('hidden');
-	// } else {
-	// 	window.addEventListener('compassneedscalibration', function(event) {
-	// 		alert('Compass needs calibrating! Wave your device in a figure-eight motion');
-	// 	});
-	// }
 </script>
 
 </script>
